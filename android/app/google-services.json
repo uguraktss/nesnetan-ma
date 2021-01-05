@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "391377186846",
+    "project_id": "nesnetespit-1c3b5",
+    "storage_bucket": "nesnetespit-1c3b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391377186846:android:f7d1bc5f29471bf8cf3e0f",
+        "android_client_info": {
+          "package_name": "com.uuur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391377186846-9fcd5lme0v16jfs89bs53gvmt7nbmbc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClOdHl3oI6V9xHLDgUOM6tyNWctSd5xtQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391377186846-9fcd5lme0v16jfs89bs53gvmt7nbmbc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

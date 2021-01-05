@@ -10,6 +10,9 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-firebase/app": "^10.4.0",
+    "@react-native-firebase/storage": "^10.4.0",
+    "firebase": "^8.2.1",
     "react": "16.13.1",
     "react-native": "0.63.4",
     "react-native-image-base64": "^0.1.4",

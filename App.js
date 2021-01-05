@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+ import storage from '@react-native-firebase/storage';
+
 import {
   Button,
   Image,
@@ -66,6 +68,12 @@ const App = () => {
     });
   }
   async function gvision() {
+     let fotoname=foto.substring(foto.lastIndexOf('/') + 1)
+     storage()
+      .ref(fotoname)
+       .putFile(foto)   
+       .catch((e) => console.log('uploading image error => ', e));
+
     let googleVisionRes = await fetch(
       'https://vision.googleapis.com/v1/images:annotate?key=AIzaSyCWEbqanaSg3xFfnts7VS4bvmotXW3SgTA',
       {
